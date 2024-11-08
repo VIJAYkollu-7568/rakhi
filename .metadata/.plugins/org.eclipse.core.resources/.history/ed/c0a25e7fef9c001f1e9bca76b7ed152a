@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>login</title>
+</head>
+<style>
+
+body{
+display: flex;
+background-color:grey; 
+min-height: 100vh;
+justify-content:center;
+align-items: center;
+          
+}
+form{
+background-color:olive; 
+align-items: center;
+border-radius:18px;
+padding:30px;
+text-align:center;
+
+}
+</style>
+<body>
+
+<form  action="login.jsp">
+<h1>Login Form</h1>
+username:<input type ="text" name="username" required><br><br>
+password:<input type="password" name="password" required><br><br>
+<button type="submit">GO</button>
+</form>
+</body>
+</html>

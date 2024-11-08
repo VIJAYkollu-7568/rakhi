@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+</head>
+<body>
+    <main>
+        <ol>
+            <li>shyam</li>
+                <ul>
+                    <li>python</li>
+                </ul>
+            <li>vijay</li>
+                <ul>
+                    <li>java</li>
+                </ul>
+            <li>yugandhar</li>
+                 <ul>
+                    <li>c++</li>
+                 </ul>
+            <li>rohith</li>
+                 <ul>
+                    <li>AOOP</li>
+                 </ul>
+        </ol>
+    </main>
+</body>
+</html>
+
+
+
+
+    

@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Student Form</title>
+</head>
+<body>
+<form style="background-color:green;" align="center" method="post" action="hello">
+<b><h1 align="center"><u>Student Form</u></h1></b>
+<b>Enter Name : </b><input type="text" name="name" required />
+<br><br>
+<b>Enter ID : </b><input type="number" name="id" required/>
+<br><br>
+<b> Select Gender </b><input type="radio" name="gender" value="male" required/>MALE
+<input type="radio" name="gender" value="female"/>Female
+<input type="radio" name="gender" value="others" required/>Others
+<br>
+<br>
+<input  type="submit" name="submit" value="submit"required>
+
+
+</form>
+</body>
+</html>

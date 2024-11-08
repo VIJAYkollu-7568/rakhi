@@ -1,0 +1,339 @@
+
+Oct 07, 2024 18:30:10.13 NEW SESSION
+Oct 07, 2024 18:30:10.13 Created TensorFlow Lite XNNPACK delegate for CPU.
+Oct 07, 2024 18:30:10.47 [280:6640:1007/183010.472:ERROR:registration_request.cc(291)] Registration response error message: DEPRECATED_ENDPOINT
+Oct 07, 2024 18:30:35.08 [280:6640:1007/183035.081:ERROR:registration_request.cc(291)] Registration response error message: DEPRECATED_ENDPOINT
+Oct 07, 2024 18:31:27.85 Attempting to use a delegate that only supports static-sized tensors with a graph that has dynamic-sized tensors (tensor#58 is a dynamic-sized tensor).
+Oct 07, 2024 18:31:30.20 [280:6640:1007/183130.190:ERROR:registration_request.cc(291)] Registration response error message: DEPRECATED_ENDPOINT
+Oct 07, 2024 18:33:07.97 [280:6640:1007/183307.969:ERROR:registration_request.cc(291)] Registration response error message: DEPRECATED_ENDPOINT
+Oct 07, 2024 18:36:51.86 [280:6640:1007/183651.861:ERROR:registration_request.cc(291)] Registration response error message: DEPRECATED_ENDPOINT
+Oct 07, 2024 18:44:13.89 [280:6640:1007/184413.892:ERROR:registration_request.cc(291)] Registration response error message: DEPRECATED_ENDPOINT
+Oct 07, 2024 19:09:50.44 [280:6640:1007/190950.443:ERROR:connection_factory_impl.cc(483)] ConnectionHandler failed with net error: -2
+Oct 07, 2024 19:09:56.44 [280:6640:1007/190956.439:ERROR:connection_factory_impl.cc(483)] ConnectionHandler failed with net error: -2
+Oct 07, 2024 23:06:45.11 [280:6640:1007/230645.116:ERROR:connection_factory_impl.cc(434)] Failed to connect to MCS endpoint with error -106
+Oct 07, 2024 23:06:45.11 [280:20380:1007/230645.116:ERROR:get_updates_processor.cc(265)] PostClientToServerMessage() failed during GetUpdates with error Network error (ERR_INTERNET_DISCONNECTED)
+Oct 07, 2024 23:06:50.80 [280:6640:1007/230650.803:ERROR:connection_factory_impl.cc(434)] Failed to connect to MCS endpoint with error -105
+Oct 07, 2024 23:06:50.80 [280:13112:1007/230650.805:ERROR:get_updates_processor.cc(265)] PostClientToServerMessage() failed during GetUpdates with error Network error (ERR_NAME_NOT_RESOLVED)
+Oct 07, 2024 23:06:57.54 [280:20404:1007/230657.543:ERROR:cert_verify_proc_builtin.cc(1063)] CertVerifyProcBuiltin for dns.google failed:
+Oct 07, 2024 23:06:57.54 ----- Certificate i=1 (emailAddress=support@sophos.com,CN=Sophos SSL CA_qUXnh5IlqCyb2UQ,OU=NSG,O=Sophos,ST=Oxfordshire,C=GB) -----
+Oct 07, 2024 23:06:57.54 ERROR: No matching issuer found
+Oct 07, 2024 23:06:57.54 
+Oct 07, 2024 23:06:57.54 
+Oct 07, 2024 23:06:57.65 [280:20404:1007/230657.657:ERROR:cert_verify_proc_builtin.cc(1063)] CertVerifyProcBuiltin for dns.google failed:
+Oct 07, 2024 23:06:57.65 ----- Certificate i=1 (emailAddress=support@sophos.com,CN=Sophos SSL CA_qUXnh5IlqCyb2UQ,OU=NSG,O=Sophos,ST=Oxfordshire,C=GB) -----
+Oct 07, 2024 23:06:57.65 ERROR: No matching issuer found
+Oct 07, 2024 23:06:57.65 
+Oct 07, 2024 23:06:57.66 
+Oct 07, 2024 23:06:57.66 [280:20404:1007/230657.664:ERROR:cert_verify_proc_builtin.cc(1063)] CertVerifyProcBuiltin for dns.google failed:
+Oct 07, 2024 23:06:57.66 ----- Certificate i=1 (emailAddress=support@sophos.com,CN=Sophos SSL CA_qUXnh5IlqCyb2UQ,OU=NSG,O=Sophos,ST=Oxfordshire,C=GB) -----
+Oct 07, 2024 23:06:57.66 ERROR: No matching issuer found
+Oct 07, 2024 23:06:57.66 
+Oct 07, 2024 23:06:57.66 
+Oct 07, 2024 23:06:58.89 [280:20404:1007/230658.898:ERROR:cert_verify_proc_builtin.cc(1063)] CertVerifyProcBuiltin for www.instagram.com failed:
+Oct 07, 2024 23:06:58.89 ----- Certificate i=1 (emailAddress=support@sophos.com,CN=Sophos SSL CA_qUXnh5IlqCyb2UQ,OU=NSG,O=Sophos,ST=Oxfordshire,C=GB) -----
+Oct 07, 2024 23:06:58.90 ERROR: No matching issuer found
+Oct 07, 2024 23:06:58.90 
+Oct 07, 2024 23:06:58.90 
+Oct 07, 2024 23:06:58.90 [280:18116:1007/230658.898:ERROR:cert_verify_proc_builtin.cc(1063)] CertVerifyProcBuiltin for clients4.google.com failed:
+Oct 07, 2024 23:06:58.90 ----- Certificate i=1 (emailAddress=support@sophos.com,CN=Sophos SSL CA_qUXnh5IlqCyb2UQ,OU=NSG,O=Sophos,ST=Oxfordshire,C=GB) -----
+Oct 07, 2024 23:06:58.90 ERROR: No matching issuer found
+Oct 07, 2024 23:06:58.90 
+Oct 07, 2024 23:06:58.90 
+Oct 07, 2024 23:06:58.90 [280:20380:1007/230658.900:ERROR:get_updates_processor.cc(265)] PostClientToServerMessage() failed during GetUpdates with error Network error (ERR_CERT_AUTHORITY_INVALID)
+Oct 07, 2024 23:06:59.15 [280:20404:1007/230659.155:ERROR:cert_verify_proc_builtin.cc(1063)] CertVerifyProcBuiltin for gateway.instagram.com failed:
+Oct 07, 2024 23:06:59.15 ----- Certificate i=1 (emailAddress=support@sophos.com,CN=Sophos SSL CA_qUXnh5IlqCyb2UQ,OU=NSG,O=Sophos,ST=Oxfordshire,C=GB) -----
+Oct 07, 2024 23:06:59.15 ERROR: No matching issuer found
+Oct 07, 2024 23:06:59.15 
+Oct 07, 2024 23:06:59.15 
+Oct 07, 2024 23:06:59.34 [280:20404:1007/230659.348:ERROR:cert_verify_proc_builtin.cc(1063)] CertVerifyProcBuiltin for ssl.gstatic.com failed:
+Oct 07, 2024 23:06:59.34 ----- Certificate i=1 (emailAddress=support@sophos.com,CN=Sophos SSL CA_qUXnh5IlqCyb2UQ,OU=NSG,O=Sophos,ST=Oxfordshire,C=GB) -----
+Oct 07, 2024 23:06:59.34 ERROR: No matching issuer found
+Oct 07, 2024 23:06:59.34 
+Oct 07, 2024 23:06:59.34 
+Oct 07, 2024 23:07:02.05 [280:18116:1007/230702.057:ERROR:get_updates_processor.cc(265)] PostClientToServerMessage() failed during GetUpdates with error Network error (ERR_CERT_AUTHORITY_INVALID)
+Oct 07, 2024 23:07:02.28 [280:20404:1007/230702.287:ERROR:cert_verify_proc_builtin.cc(1063)] CertVerifyProcBuiltin for edge-chat.facebook.com failed:
+Oct 07, 2024 23:07:02.28 ----- Certificate i=1 (emailAddress=support@sophos.com,CN=Sophos SSL CA_qUXnh5IlqCyb2UQ,OU=NSG,O=Sophos,ST=Oxfordshire,C=GB) -----
+Oct 07, 2024 23:07:02.28 ERROR: No matching issuer found
+Oct 07, 2024 23:07:02.29 
+Oct 07, 2024 23:07:02.29 
+Oct 07, 2024 23:07:02.76 [280:20404:1007/230702.762:ERROR:cert_verify_proc_builtin.cc(1063)] CertVerifyProcBuiltin for edge-chat.instagram.com failed:
+Oct 07, 2024 23:07:02.76 ----- Certificate i=1 (emailAddress=support@sophos.com,CN=Sophos SSL CA_qUXnh5IlqCyb2UQ,OU=NSG,O=Sophos,ST=Oxfordshire,C=GB) -----
+Oct 07, 2024 23:07:02.76 ERROR: No matching issuer found
+Oct 07, 2024 23:07:02.76 
+Oct 07, 2024 23:07:02.76 
+Oct 07, 2024 23:07:05.12 [280:20380:1007/230705.121:ERROR:get_updates_processor.cc(265)] PostClientToServerMessage() failed during GetUpdates with error Network error (ERR_CERT_AUTHORITY_INVALID)
+
+Oct 21, 2024 13:15:29.06 NEW SESSION
+Oct 21, 2024 13:15:29.07 [16300:18752:1021/131529.059:ERROR:cert_verify_proc_builtin.cc(1063)] CertVerifyProcBuiltin for clientservices.googleapis.com failed:
+Oct 21, 2024 13:15:29.07 ----- Certificate i=1 (emailAddress=support@sophos.com,CN=Sophos SSL CA_qUXnh5IlqCyb2UQ,OU=NSG,O=Sophos,ST=Oxfordshire,C=GB) -----
+Oct 21, 2024 13:15:29.07 ERROR: No matching issuer found
+Oct 21, 2024 13:15:29.07 
+Oct 21, 2024 13:15:29.07 
+Oct 21, 2024 13:15:29.15 [16300:18752:1021/131529.151:ERROR:cert_verify_proc_builtin.cc(1063)] CertVerifyProcBuiltin for accounts.google.com failed:
+Oct 21, 2024 13:15:29.15 ----- Certificate i=1 (emailAddress=support@sophos.com,CN=Sophos SSL CA_qUXnh5IlqCyb2UQ,OU=NSG,O=Sophos,ST=Oxfordshire,C=GB) -----
+Oct 21, 2024 13:15:29.15 ERROR: No matching issuer found
+Oct 21, 2024 13:15:29.15 
+Oct 21, 2024 13:15:29.15 
+Oct 21, 2024 13:15:29.15 [16300:16060:1021/131529.151:ERROR:cert_verify_proc_builtin.cc(1063)] CertVerifyProcBuiltin for api.ipify.org failed:
+Oct 21, 2024 13:15:29.15 ----- Certificate i=1 (emailAddress=support@sophos.com,CN=Sophos SSL CA_qUXnh5IlqCyb2UQ,OU=NSG,O=Sophos,ST=Oxfordshire,C=GB) -----
+Oct 21, 2024 13:15:29.15 ERROR: No matching issuer found
+Oct 21, 2024 13:15:29.15 
+Oct 21, 2024 13:15:29.15 
+Oct 21, 2024 13:15:29.15 [16300:18752:1021/131529.152:ERROR:cert_verify_proc_builtin.cc(1063)] CertVerifyProcBuiltin for www.googleapis.com failed:
+Oct 21, 2024 13:15:29.15 ----- Certificate i=1 (emailAddress=support@sophos.com,CN=Sophos SSL CA_qUXnh5IlqCyb2UQ,OU=NSG,O=Sophos,ST=Oxfordshire,C=GB) -----
+Oct 21, 2024 13:15:29.15 ERROR: No matching issuer found
+Oct 21, 2024 13:15:29.15 
+Oct 21, 2024 13:15:29.15 
+Oct 21, 2024 13:15:30.50 [16300:10216:1021/131530.508:ERROR:connection_factory_impl.cc(434)] Failed to connect to MCS endpoint with error -105
+Oct 21, 2024 13:15:30.50 [16300:10216:1021/131530.508:ERROR:registration_request.cc(274)] Registration URL fetching failed.
+Oct 21, 2024 13:15:31.20 Created TensorFlow Lite XNNPACK delegate for CPU.
+Oct 21, 2024 13:15:33.86 [16300:18752:1021/131533.862:ERROR:cert_verify_proc_builtin.cc(1063)] CertVerifyProcBuiltin for update.googleapis.com failed:
+Oct 21, 2024 13:15:33.86 ----- Certificate i=1 (emailAddress=support@sophos.com,CN=Sophos SSL CA_qUXnh5IlqCyb2UQ,OU=NSG,O=Sophos,ST=Oxfordshire,C=GB) -----
+Oct 21, 2024 13:15:33.86 ERROR: No matching issuer found
+Oct 21, 2024 13:15:33.86 
+Oct 21, 2024 13:15:33.86 
+Oct 21, 2024 13:15:34.48 [16300:18752:1021/131534.485:ERROR:cert_verify_proc_builtin.cc(1063)] CertVerifyProcBuiltin for dns.google failed:
+Oct 21, 2024 13:15:34.48 ----- Certificate i=1 (emailAddress=support@sophos.com,CN=Sophos SSL CA_qUXnh5IlqCyb2UQ,OU=NSG,O=Sophos,ST=Oxfordshire,C=GB) -----
+Oct 21, 2024 13:15:34.48 ERROR: No matching issuer found
+Oct 21, 2024 13:15:34.48 
+Oct 21, 2024 13:15:34.48 
+Oct 21, 2024 13:15:34.48 [16300:18752:1021/131534.486:ERROR:cert_verify_proc_builtin.cc(1063)] CertVerifyProcBuiltin for www.google.com failed:
+Oct 21, 2024 13:15:34.48 ----- Certificate i=1 (emailAddress=support@sophos.com,CN=Sophos SSL CA_qUXnh5IlqCyb2UQ,OU=NSG,O=Sophos,ST=Oxfordshire,C=GB) -----
+Oct 21, 2024 13:15:34.48 ERROR: No matching issuer found
+Oct 21, 2024 13:15:34.48 
+Oct 21, 2024 13:15:34.48 
+Oct 21, 2024 13:15:34.49 [16300:18752:1021/131534.490:ERROR:cert_verify_proc_builtin.cc(1063)] CertVerifyProcBuiltin for mtalk.google.com failed:
+Oct 21, 2024 13:15:34.49 ----- Certificate i=1 (emailAddress=support@sophos.com,CN=Sophos SSL CA_qUXnh5IlqCyb2UQ,OU=NSG,O=Sophos,ST=Oxfordshire,C=GB) -----
+Oct 21, 2024 13:15:34.49 ERROR: No matching issuer found
+Oct 21, 2024 13:15:34.49 
+Oct 21, 2024 13:15:34.49 
+Oct 21, 2024 13:15:34.49 [16300:10216:1021/131534.495:ERROR:connection_factory_impl.cc(434)] Failed to connect to MCS endpoint with error -202
+Oct 21, 2024 13:15:34.49 [16300:18752:1021/131534.495:ERROR:cert_verify_proc_builtin.cc(1063)] CertVerifyProcBuiltin for docs.google.com failed:
+Oct 21, 2024 13:15:34.49 ----- Certificate i=1 (emailAddress=support@sophos.com,CN=Sophos SSL CA_qUXnh5IlqCyb2UQ,OU=NSG,O=Sophos,ST=Oxfordshire,C=GB) -----
+Oct 21, 2024 13:15:34.49 ERROR: No matching issuer found
+Oct 21, 2024 13:15:34.49 
+Oct 21, 2024 13:15:34.49 
+Oct 21, 2024 13:15:34.68 [16300:18752:1021/131534.684:ERROR:cert_verify_proc_builtin.cc(1063)] CertVerifyProcBuiltin for www.googleapis.com failed:
+Oct 21, 2024 13:15:34.68 ----- Certificate i=1 (emailAddress=support@sophos.com,CN=Sophos SSL CA_qUXnh5IlqCyb2UQ,OU=NSG,O=Sophos,ST=Oxfordshire,C=GB) -----
+Oct 21, 2024 13:15:34.68 ERROR: No matching issuer found
+Oct 21, 2024 13:15:34.68 
+Oct 21, 2024 13:15:34.68 
+Oct 21, 2024 13:15:34.87 [16300:18752:1021/131534.877:ERROR:cert_verify_proc_builtin.cc(1063)] CertVerifyProcBuiltin for accounts.google.com failed:
+Oct 21, 2024 13:15:34.87 ----- Certificate i=1 (emailAddress=support@sophos.com,CN=Sophos SSL CA_qUXnh5IlqCyb2UQ,OU=NSG,O=Sophos,ST=Oxfordshire,C=GB) -----
+Oct 21, 2024 13:15:34.87 ERROR: No matching issuer found
+Oct 21, 2024 13:15:34.87 
+Oct 21, 2024 13:15:34.87 
+Oct 21, 2024 13:15:34.88 [16300:18752:1021/131534.881:ERROR:cert_verify_proc_builtin.cc(1063)] CertVerifyProcBuiltin for dns.google failed:
+Oct 21, 2024 13:15:34.88 ----- Certificate i=1 (emailAddress=support@sophos.com,CN=Sophos SSL CA_qUXnh5IlqCyb2UQ,OU=NSG,O=Sophos,ST=Oxfordshire,C=GB) -----
+Oct 21, 2024 13:15:34.88 ERROR: No matching issuer found
+Oct 21, 2024 13:15:34.88 
+Oct 21, 2024 13:15:34.88 
+Oct 21, 2024 13:15:34.88 [16300:18752:1021/131534.883:ERROR:cert_verify_proc_builtin.cc(1063)] CertVerifyProcBuiltin for dns.google failed:
+Oct 21, 2024 13:15:34.88 ----- Certificate i=1 (emailAddress=support@sophos.com,CN=Sophos SSL CA_qUXnh5IlqCyb2UQ,OU=NSG,O=Sophos,ST=Oxfordshire,C=GB) -----
+Oct 21, 2024 13:15:34.88 ERROR: No matching issuer found
+Oct 21, 2024 13:15:34.88 
+Oct 21, 2024 13:15:34.88 
+Oct 21, 2024 13:15:38.47 [16300:18752:1021/131538.469:ERROR:cert_verify_proc_builtin.cc(1063)] CertVerifyProcBuiltin for optimizationguide-pa.googleapis.com failed:
+Oct 21, 2024 13:15:38.47 ----- Certificate i=1 (emailAddress=support@sophos.com,CN=Sophos SSL CA_qUXnh5IlqCyb2UQ,OU=NSG,O=Sophos,ST=Oxfordshire,C=GB) -----
+Oct 21, 2024 13:15:38.47 ERROR: No matching issuer found
+Oct 21, 2024 13:15:38.47 
+Oct 21, 2024 13:15:38.47 
+Oct 21, 2024 13:15:41.02 [16300:18752:1021/131541.024:ERROR:cert_verify_proc_builtin.cc(1063)] CertVerifyProcBuiltin for ssl.gstatic.com failed:
+Oct 21, 2024 13:15:41.02 ----- Certificate i=1 (emailAddress=support@sophos.com,CN=Sophos SSL CA_qUXnh5IlqCyb2UQ,OU=NSG,O=Sophos,ST=Oxfordshire,C=GB) -----
+Oct 21, 2024 13:15:41.02 ERROR: No matching issuer found
+Oct 21, 2024 13:15:41.02 
+Oct 21, 2024 13:15:41.02 
+Oct 21, 2024 13:15:59.25 [16300:18752:1021/131559.254:ERROR:cert_verify_proc_builtin.cc(1063)] CertVerifyProcBuiltin for android.clients.google.com failed:
+Oct 21, 2024 13:15:59.25 ----- Certificate i=1 (emailAddress=support@sophos.com,CN=Sophos SSL CA_qUXnh5IlqCyb2UQ,OU=NSG,O=Sophos,ST=Oxfordshire,C=GB) -----
+Oct 21, 2024 13:15:59.25 ERROR: No matching issuer found
+Oct 21, 2024 13:15:59.25 
+Oct 21, 2024 13:15:59.25 
+Oct 21, 2024 13:15:59.25 [16300:10216:1021/131559.256:ERROR:registration_request.cc(274)] Registration URL fetching failed.
+Oct 21, 2024 13:16:03.35 Attempting to use a delegate that only supports static-sized tensors with a graph that has dynamic-sized tensors (tensor#58 is a dynamic-sized tensor).
+Oct 21, 2024 13:16:18.80 [16300:10216:1021/131618.805:ERROR:connection_factory_impl.cc(434)] Failed to connect to MCS endpoint with error -118
+Oct 21, 2024 13:16:27.81 [16300:18752:1021/131627.814:ERROR:cert_verify_proc_builtin.cc(1063)] CertVerifyProcBuiltin for clients4.google.com failed:
+Oct 21, 2024 13:16:27.81 ----- Certificate i=1 (emailAddress=support@sophos.com,CN=Sophos SSL CA_qUXnh5IlqCyb2UQ,OU=NSG,O=Sophos,ST=Oxfordshire,C=GB) -----
+Oct 21, 2024 13:16:27.81 ERROR: No matching issuer found
+Oct 21, 2024 13:16:27.81 
+Oct 21, 2024 13:16:27.81 
+Oct 21, 2024 13:16:27.81 [16300:18752:1021/131627.817:ERROR:cert_verify_proc_builtin.cc(1063)] CertVerifyProcBuiltin for clientservices.googleapis.com failed:
+Oct 21, 2024 13:16:27.81 ----- Certificate i=1 (emailAddress=support@sophos.com,CN=Sophos SSL CA_qUXnh5IlqCyb2UQ,OU=NSG,O=Sophos,ST=Oxfordshire,C=GB) -----
+Oct 21, 2024 13:16:27.81 ERROR: No matching issuer found
+Oct 21, 2024 13:16:27.82 
+Oct 21, 2024 13:16:27.82 
+Oct 21, 2024 13:16:28.01 [16300:18752:1021/131628.016:ERROR:cert_verify_proc_builtin.cc(1063)] CertVerifyProcBuiltin for update.googleapis.com failed:
+Oct 21, 2024 13:16:28.01 ----- Certificate i=1 (emailAddress=support@sophos.com,CN=Sophos SSL CA_qUXnh5IlqCyb2UQ,OU=NSG,O=Sophos,ST=Oxfordshire,C=GB) -----
+Oct 21, 2024 13:16:28.01 ERROR: No matching issuer found
+Oct 21, 2024 13:16:28.01 
+Oct 21, 2024 13:16:28.01 
+Oct 21, 2024 13:16:42.73 [16300:10216:1021/131642.734:ERROR:registration_request.cc(274)] Registration URL fetching failed.
+Oct 21, 2024 13:18:24.00 [16300:10216:1021/131824.001:ERROR:registration_request.cc(291)] Registration response error message: DEPRECATED_ENDPOINT
+Oct 21, 2024 13:21:19.72 [16300:10216:1021/132119.721:ERROR:registration_request.cc(291)] Registration response error message: DEPRECATED_ENDPOINT
+Oct 21, 2024 13:27:15.58 [16300:10216:1021/132715.587:ERROR:registration_request.cc(291)] Registration response error message: DEPRECATED_ENDPOINT
+Oct 21, 2024 13:34:30.23 [16300:10216:1021/133430.230:ERROR:connection_factory_impl.cc(483)] ConnectionHandler failed with net error: -2
+Oct 21, 2024 13:34:41.44 [16300:10216:1021/133441.448:ERROR:connection_factory_impl.cc(434)] Failed to connect to MCS endpoint with error -105
+Oct 21, 2024 13:38:00.14 [16300:10216:1021/133800.137:ERROR:connection_factory_impl.cc(483)] ConnectionHandler failed with net error: -2
+
+Oct 24, 2024 14:18:00.49 NEW SESSION
+Oct 24, 2024 14:18:00.49 Created TensorFlow Lite XNNPACK delegate for CPU.
+Oct 24, 2024 14:18:01.69 [2248:19948:1024/141801.693:ERROR:registration_request.cc(291)] Registration response error message: DEPRECATED_ENDPOINT
+Oct 24, 2024 14:18:26.94 [2248:19948:1024/141826.946:ERROR:registration_request.cc(291)] Registration response error message: DEPRECATED_ENDPOINT
+Oct 24, 2024 14:18:33.24 Attempting to use a delegate that only supports static-sized tensors with a graph that has dynamic-sized tensors (tensor#58 is a dynamic-sized tensor).
+Oct 24, 2024 14:19:18.27 [2248:19948:1024/141918.272:ERROR:registration_request.cc(291)] Registration response error message: DEPRECATED_ENDPOINT
+Oct 24, 2024 14:21:02.23 [2248:19948:1024/142102.231:ERROR:registration_request.cc(291)] Registration response error message: DEPRECATED_ENDPOINT
+Oct 24, 2024 14:24:37.36 [2248:19948:1024/142437.368:ERROR:registration_request.cc(291)] Registration response error message: DEPRECATED_ENDPOINT
+Oct 24, 2024 14:30:16.04 [2248:19948:1024/143016.039:ERROR:registration_request.cc(291)] Registration response error message: DEPRECATED_ENDPOINT
+Oct 24, 2024 14:33:33.42 [2248:19948:1024/143333.426:ERROR:connection_factory_impl.cc(483)] ConnectionHandler failed with net error: -2
+Oct 24, 2024 14:34:28.88 [2248:19948:1024/143428.883:ERROR:connection_factory_impl.cc(483)] ConnectionHandler failed with net error: -2
+Oct 24, 2024 14:36:52.12 [2248:19948:1024/143652.124:ERROR:connection_factory_impl.cc(434)] Failed to connect to MCS endpoint with error -105
+Oct 24, 2024 14:44:11.17 [2248:19948:1024/144411.179:ERROR:connection_factory_impl.cc(434)] Failed to connect to MCS endpoint with error -105
+Oct 24, 2024 14:46:17.79 [2248:19948:1024/144617.798:ERROR:connection_factory_impl.cc(483)] ConnectionHandler failed with net error: -2
+Oct 24, 2024 14:50:06.29 [2248:19948:1024/145006.293:ERROR:connection_factory_impl.cc(483)] ConnectionHandler failed with net error: -2
+Oct 24, 2024 14:57:12.94 [2248:19948:1024/145712.949:ERROR:connection_factory_impl.cc(483)] ConnectionHandler failed with net error: -2
+Oct 24, 2024 14:58:16.85 [2248:19948:1024/145816.858:ERROR:connection_factory_impl.cc(434)] Failed to connect to MCS endpoint with error -105
+Oct 24, 2024 14:58:41.22 [2248:19948:1024/145841.224:ERROR:connection_factory_impl.cc(483)] ConnectionHandler failed with net error: -2
+Oct 24, 2024 14:58:47.02 [2248:19948:1024/145847.019:ERROR:connection_factory_impl.cc(483)] ConnectionHandler failed with net error: -2
+Oct 24, 2024 15:00:25.40 [2248:19948:1024/150025.401:ERROR:connection_factory_impl.cc(483)] ConnectionHandler failed with net error: -2
+Oct 24, 2024 15:00:31.39 [2248:19948:1024/150031.394:ERROR:connection_factory_impl.cc(483)] ConnectionHandler failed with net error: -2
+Oct 24, 2024 15:10:55.42 [2248:19948:1024/151055.420:ERROR:connection_factory_impl.cc(483)] ConnectionHandler failed with net error: -2
+Oct 24, 2024 15:16:19.15 [2248:19948:1024/151619.150:ERROR:connection_factory_impl.cc(434)] Failed to connect to MCS endpoint with error -7
+Oct 24, 2024 15:19:14.57 [2248:19948:1024/151914.569:ERROR:connection_factory_impl.cc(483)] ConnectionHandler failed with net error: -2
+Oct 24, 2024 15:21:52.16 [2248:19948:1024/152152.168:ERROR:connection_factory_impl.cc(434)] Failed to connect to MCS endpoint with error -105
+Oct 24, 2024 15:21:54.22 [2248:19948:1024/152154.227:ERROR:connection_factory_impl.cc(434)] Failed to connect to MCS endpoint with error -105
+Oct 24, 2024 15:22:08.80 [2248:19948:1024/152208.804:ERROR:connection_factory_impl.cc(434)] Failed to connect to MCS endpoint with error -105
+Oct 24, 2024 15:26:15.46 [2248:19948:1024/152615.452:ERROR:connection_factory_impl.cc(483)] ConnectionHandler failed with net error: -2
+
+Oct 25, 2024 13:58:48.91 NEW SESSION
+Oct 25, 2024 13:58:48.92 Created TensorFlow Lite XNNPACK delegate for CPU.
+Oct 25, 2024 13:59:04.02 [16748:17980:1025/135904.023:ERROR:registration_request.cc(291)] Registration response error message: DEPRECATED_ENDPOINT
+Oct 25, 2024 13:59:21.39 Attempting to use a delegate that only supports static-sized tensors with a graph that has dynamic-sized tensors (tensor#58 is a dynamic-sized tensor).
+Oct 25, 2024 13:59:45.48 [16748:17980:1025/135945.483:ERROR:registration_request.cc(291)] Registration response error message: DEPRECATED_ENDPOINT
+Oct 25, 2024 14:00:32.42 [16748:17980:1025/140032.420:ERROR:registration_request.cc(291)] Registration response error message: DEPRECATED_ENDPOINT
+Oct 25, 2024 14:02:06.01 [16748:17980:1025/140206.011:ERROR:registration_request.cc(291)] Registration response error message: DEPRECATED_ENDPOINT
+Oct 25, 2024 14:06:04.64 [16748:17980:1025/140604.641:ERROR:registration_request.cc(291)] Registration response error message: DEPRECATED_ENDPOINT
+Oct 25, 2024 14:11:33.27 [16748:17980:1025/141133.272:ERROR:registration_request.cc(291)] Registration response error message: DEPRECATED_ENDPOINT
+Oct 25, 2024 14:24:05.94 [16748:17980:1025/142405.930:ERROR:connection_factory_impl.cc(483)] ConnectionHandler failed with net error: -2
+Oct 25, 2024 14:26:53.94 [16748:17980:1025/142653.941:ERROR:connection_factory_impl.cc(434)] Failed to connect to MCS endpoint with error -105
+Oct 25, 2024 14:33:01.93 [16748:17980:1025/143301.933:ERROR:connection_factory_impl.cc(483)] ConnectionHandler failed with net error: -2
+Oct 25, 2024 14:33:26.89 [16748:17980:1025/143326.898:ERROR:connection_factory_impl.cc(434)] Failed to connect to MCS endpoint with error -105
+Oct 25, 2024 14:34:06.58 [16748:17980:1025/143406.579:ERROR:connection_factory_impl.cc(483)] ConnectionHandler failed with net error: -2
+Oct 25, 2024 14:36:07.79 [16748:17980:1025/143607.797:ERROR:connection_factory_impl.cc(483)] ConnectionHandler failed with net error: -2
+Oct 25, 2024 14:43:36.38 [16748:17980:1025/144336.381:ERROR:connection_factory_impl.cc(483)] ConnectionHandler failed with net error: -2
+Oct 25, 2024 14:45:45.11 [16748:17980:1025/144545.117:ERROR:connection_factory_impl.cc(434)] Failed to connect to MCS endpoint with error -105
+Oct 25, 2024 14:51:53.49 [16748:17980:1025/145153.455:ERROR:connection_factory_impl.cc(483)] ConnectionHandler failed with net error: -2
+Oct 25, 2024 14:56:15.37 [16748:17980:1025/145615.368:ERROR:connection_factory_impl.cc(483)] ConnectionHandler failed with net error: -2
+Oct 25, 2024 14:56:21.06 [16748:17980:1025/145621.038:ERROR:connection_factory_impl.cc(483)] ConnectionHandler failed with net error: -2
+Oct 25, 2024 15:10:27.60 [16748:17980:1025/151027.609:ERROR:connection_factory_impl.cc(434)] Failed to connect to MCS endpoint with error -105
+Oct 25, 2024 15:19:38.62 Created TensorFlow Lite XNNPACK delegate for CPU.
+Oct 25, 2024 15:19:38.94 [24316:10020:1025/151938.942:ERROR:registration_request.cc(291)] Registration response error message: DEPRECATED_ENDPOINT
+Oct 25, 2024 15:20:06.13 [24316:10020:1025/152006.135:ERROR:registration_request.cc(291)] Registration response error message: DEPRECATED_ENDPOINT
+Oct 25, 2024 15:20:12.34 Attempting to use a delegate that only supports static-sized tensors with a graph that has dynamic-sized tensors (tensor#58 is a dynamic-sized tensor).
+Oct 25, 2024 15:20:19.73 [24316:19828:1025/152019.737:ERROR:interface_endpoint_client.cc(725)] Message 1 rejected by interface blink.mojom.WidgetHost
+Oct 25, 2024 15:20:56.27 [24316:10020:1025/152056.276:ERROR:registration_request.cc(291)] Registration response error message: DEPRECATED_ENDPOINT
+Oct 25, 2024 15:22:34.35 [24316:10020:1025/152234.353:ERROR:registration_request.cc(291)] Registration response error message: DEPRECATED_ENDPOINT
+Oct 25, 2024 15:25:30.64 [24316:10020:1025/152530.648:ERROR:registration_request.cc(291)] Registration response error message: DEPRECATED_ENDPOINT
+
+Oct 28, 2024 09:41:25.43 NEW SESSION
+Oct 28, 2024 09:41:25.44 Created TensorFlow Lite XNNPACK delegate for CPU.
+Oct 28, 2024 09:41:25.90 [12192:22944:1028/094125.901:ERROR:registration_request.cc(291)] Registration response error message: DEPRECATED_ENDPOINT
+Oct 28, 2024 09:41:49.18 Attempting to use a delegate that only supports static-sized tensors with a graph that has dynamic-sized tensors (tensor#58 is a dynamic-sized tensor).
+Oct 28, 2024 09:55:55.95 Created TensorFlow Lite XNNPACK delegate for CPU.
+Oct 28, 2024 09:55:56.42 [2056:21416:1028/095556.422:ERROR:registration_request.cc(291)] Registration response error message: DEPRECATED_ENDPOINT
+Oct 28, 2024 09:56:16.74 [2056:21416:1028/095616.747:ERROR:registration_request.cc(291)] Registration response error message: DEPRECATED_ENDPOINT
+Oct 28, 2024 09:56:22.91 Attempting to use a delegate that only supports static-sized tensors with a graph that has dynamic-sized tensors (tensor#58 is a dynamic-sized tensor).
+Oct 28, 2024 09:57:06.58 [2056:21416:1028/095706.584:ERROR:registration_request.cc(291)] Registration response error message: DEPRECATED_ENDPOINT
+Oct 28, 2024 09:58:36.04 Created TensorFlow Lite XNNPACK delegate for CPU.
+Oct 28, 2024 09:58:36.39 [22924:23332:1028/095836.396:ERROR:registration_request.cc(291)] Registration response error message: DEPRECATED_ENDPOINT
+Oct 28, 2024 09:59:02.61 [22924:23332:1028/095902.615:ERROR:registration_request.cc(291)] Registration response error message: DEPRECATED_ENDPOINT
+Oct 28, 2024 09:59:09.35 Attempting to use a delegate that only supports static-sized tensors with a graph that has dynamic-sized tensors (tensor#58 is a dynamic-sized tensor).
+Oct 28, 2024 09:59:57.46 [22924:23332:1028/095957.467:ERROR:registration_request.cc(291)] Registration response error message: DEPRECATED_ENDPOINT
+Oct 28, 2024 10:01:22.35 [22924:27616:1028/100122.350:ERROR:interface_endpoint_client.cc(725)] Message 1 rejected by interface blink.mojom.WidgetHost
+Oct 28, 2024 10:01:27.16 [22924:23332:1028/100127.165:ERROR:registration_request.cc(291)] Registration response error message: DEPRECATED_ENDPOINT
+Oct 28, 2024 10:04:17.48 [22924:23332:1028/100417.484:ERROR:registration_request.cc(291)] Registration response error message: DEPRECATED_ENDPOINT
+Oct 28, 2024 10:10:26.86 [22924:23332:1028/101026.860:ERROR:registration_request.cc(291)] Registration response error message: DEPRECATED_ENDPOINT
+Oct 28, 2024 10:24:33.07 [22924:23332:1028/102433.072:ERROR:registration_request.cc(291)] Registration response error message: DEPRECATED_ENDPOINT
+Oct 28, 2024 10:25:03.19 [22924:23332:1028/102503.196:ERROR:registration_request.cc(291)] Registration response error message: DEPRECATED_ENDPOINT
+Oct 28, 2024 10:25:29.46 [22924:23332:1028/102529.459:ERROR:connection_factory_impl.cc(483)] ConnectionHandler failed with net error: -2
+Oct 28, 2024 10:26:21.50 [22924:23332:1028/102621.507:ERROR:registration_request.cc(274)] Registration URL fetching failed.
+Oct 28, 2024 10:28:21.72 [22924:23332:1028/102821.716:ERROR:registration_request.cc(291)] Registration response error message: DEPRECATED_ENDPOINT
+Oct 28, 2024 10:31:43.09 [22924:23332:1028/103143.095:ERROR:registration_request.cc(291)] Registration response error message: DEPRECATED_ENDPOINT
+Oct 28, 2024 10:37:15.21 [22924:23332:1028/103715.212:ERROR:registration_request.cc(291)] Registration response error message: DEPRECATED_ENDPOINT
+Oct 28, 2024 10:42:35.11 [22924:23332:1028/104235.118:ERROR:connection_factory_impl.cc(483)] ConnectionHandler failed with net error: -2
+Oct 28, 2024 10:48:34.84 [22924:23332:1028/104834.844:ERROR:connection_factory_impl.cc(483)] ConnectionHandler failed with net error: -2
+Oct 28, 2024 10:58:34.46 [22924:23332:1028/105834.461:ERROR:connection_factory_impl.cc(483)] ConnectionHandler failed with net error: -2
+Oct 28, 2024 10:58:40.49 [22924:23332:1028/105840.495:ERROR:connection_factory_impl.cc(483)] ConnectionHandler failed with net error: -2
+Oct 28, 2024 11:09:37.56 [22924:23332:1028/110937.563:ERROR:connection_factory_impl.cc(434)] Failed to connect to MCS endpoint with error -105
+
+Oct 29, 2024 16:25:51.03 NEW SESSION
+Oct 29, 2024 16:25:51.04 [2444:23076:1029/162551.034:ERROR:registration_request.cc(291)] Registration response error message: DEPRECATED_ENDPOINT
+Oct 29, 2024 16:25:51.65 Created TensorFlow Lite XNNPACK delegate for CPU.
+Oct 29, 2024 16:25:54.68 Attempting to use a delegate that only supports static-sized tensors with a graph that has dynamic-sized tensors (tensor#58 is a dynamic-sized tensor).
+Oct 29, 2024 16:26:19.90 [2444:23076:1029/162619.901:ERROR:registration_request.cc(291)] Registration response error message: DEPRECATED_ENDPOINT
+Oct 29, 2024 16:27:12.59 [2444:23076:1029/162712.594:ERROR:registration_request.cc(291)] Registration response error message: DEPRECATED_ENDPOINT
+Oct 29, 2024 16:28:36.05 [2444:23076:1029/162836.059:ERROR:registration_request.cc(291)] Registration response error message: DEPRECATED_ENDPOINT
+Oct 29, 2024 16:32:34.12 [2444:23076:1029/163234.122:ERROR:registration_request.cc(291)] Registration response error message: DEPRECATED_ENDPOINT
+
+Nov 01, 2024 18:48:28.18 NEW SESSION
+Nov 01, 2024 18:48:28.21 [28240:18184:1101/184828.183:ERROR:connection_factory_impl.cc(434)] Failed to connect to MCS endpoint with error -105
+Nov 01, 2024 18:48:28.21 [28240:18184:1101/184828.185:ERROR:registration_request.cc(274)] Registration URL fetching failed.
+Nov 01, 2024 18:48:28.35 Created TensorFlow Lite XNNPACK delegate for CPU.
+
+Nov 04, 2024 09:28:41.92 NEW SESSION
+Nov 04, 2024 09:28:41.95 Created TensorFlow Lite XNNPACK delegate for CPU.
+Nov 04, 2024 09:28:45.18 [15448:17612:1104/092845.182:ERROR:registration_request.cc(291)] Registration response error message: DEPRECATED_ENDPOINT
+Nov 04, 2024 09:28:52.50 Attempting to use a delegate that only supports static-sized tensors with a graph that has dynamic-sized tensors (tensor#58 is a dynamic-sized tensor).
+Nov 04, 2024 09:29:08.76 [15448:17612:1104/092908.768:ERROR:registration_request.cc(291)] Registration response error message: DEPRECATED_ENDPOINT
+Nov 04, 2024 09:30:02.03 [15448:17612:1104/093002.034:ERROR:registration_request.cc(291)] Registration response error message: DEPRECATED_ENDPOINT
+Nov 04, 2024 09:31:37.62 [15448:17612:1104/093137.625:ERROR:registration_request.cc(291)] Registration response error message: DEPRECATED_ENDPOINT
+Nov 04, 2024 09:33:25.44 Created TensorFlow Lite XNNPACK delegate for CPU.
+Nov 04, 2024 09:33:40.34 [11960:17400:1104/093340.347:ERROR:registration_request.cc(291)] Registration response error message: DEPRECATED_ENDPOINT
+Nov 04, 2024 09:33:50.32 [11960:17400:1104/093350.320:ERROR:connection_factory_impl.cc(483)] ConnectionHandler failed with net error: -2
+Nov 04, 2024 09:33:58.70 Attempting to use a delegate that only supports static-sized tensors with a graph that has dynamic-sized tensors (tensor#58 is a dynamic-sized tensor).
+Nov 04, 2024 09:34:03.52 [11960:17400:1104/093403.526:ERROR:registration_request.cc(291)] Registration response error message: DEPRECATED_ENDPOINT
+Nov 04, 2024 09:34:56.39 [11960:17400:1104/093456.396:ERROR:connection_factory_impl.cc(434)] Failed to connect to MCS endpoint with error -7
+Nov 04, 2024 09:35:00.87 [11960:17400:1104/093500.876:ERROR:registration_request.cc(291)] Registration response error message: DEPRECATED_ENDPOINT
+Nov 04, 2024 09:36:11.59 [11960:17400:1104/093611.589:ERROR:connection_factory_impl.cc(434)] Failed to connect to MCS endpoint with error -118
+Nov 04, 2024 09:36:36.43 [11960:17400:1104/093636.430:ERROR:registration_request.cc(291)] Registration response error message: DEPRECATED_ENDPOINT
+Nov 04, 2024 09:38:27.91 [11960:17400:1104/093827.914:ERROR:connection_factory_impl.cc(483)] ConnectionHandler failed with net error: -2
+Nov 04, 2024 09:40:36.76 [11960:17400:1104/094036.766:ERROR:registration_request.cc(291)] Registration response error message: DEPRECATED_ENDPOINT
+
+Nov 05, 2024 16:30:00.31 NEW SESSION
+Nov 05, 2024 16:30:00.33 [22676:12684:1105/163000.306:ERROR:interface_endpoint_client.cc(725)] Message 0 rejected by interface blink.mojom.WidgetHost
+Nov 05, 2024 16:30:01.71 Created TensorFlow Lite XNNPACK delegate for CPU.
+Nov 05, 2024 16:30:02.24 [22676:12476:1105/163002.242:ERROR:registration_request.cc(291)] Registration response error message: DEPRECATED_ENDPOINT
+Nov 05, 2024 16:34:11.09 Created TensorFlow Lite XNNPACK delegate for CPU.
+Nov 05, 2024 16:34:11.25 [9316:8076:1105/163411.253:ERROR:registration_request.cc(291)] Registration response error message: DEPRECATED_ENDPOINT
+Nov 05, 2024 16:34:33.42 [9316:8076:1105/163433.428:ERROR:registration_request.cc(291)] Registration response error message: DEPRECATED_ENDPOINT
+Nov 05, 2024 16:34:39.07 Attempting to use a delegate that only supports static-sized tensors with a graph that has dynamic-sized tensors (tensor#58 is a dynamic-sized tensor).
+Nov 05, 2024 16:35:23.66 [9316:8076:1105/163523.662:ERROR:registration_request.cc(291)] Registration response error message: DEPRECATED_ENDPOINT
+Nov 05, 2024 16:36:50.96 [9316:8076:1105/163650.962:ERROR:registration_request.cc(291)] Registration response error message: DEPRECATED_ENDPOINT
+
+Nov 06, 2024 14:06:45.48 NEW SESSION
+Nov 06, 2024 14:06:45.50 [4376:17980:1106/140645.482:ERROR:registration_request.cc(291)] Registration response error message: DEPRECATED_ENDPOINT
+Nov 06, 2024 14:06:45.51 Created TensorFlow Lite XNNPACK delegate for CPU.
+Nov 06, 2024 14:07:15.58 [4376:17980:1106/140715.580:ERROR:registration_request.cc(291)] Registration response error message: DEPRECATED_ENDPOINT
+Nov 06, 2024 14:07:17.46 Attempting to use a delegate that only supports static-sized tensors with a graph that has dynamic-sized tensors (tensor#58 is a dynamic-sized tensor).
+Nov 06, 2024 14:08:05.21 [4376:17980:1106/140805.219:ERROR:registration_request.cc(291)] Registration response error message: DEPRECATED_ENDPOINT
+Nov 06, 2024 14:09:40.05 [4376:17980:1106/140940.054:ERROR:registration_request.cc(291)] Registration response error message: DEPRECATED_ENDPOINT
+
+Nov 07, 2024 14:10:08.41 NEW SESSION
+Nov 07, 2024 14:10:08.43 Created TensorFlow Lite XNNPACK delegate for CPU.
+Nov 07, 2024 14:10:08.52 [31216:21892:1107/141008.520:ERROR:registration_request.cc(291)] Registration response error message: DEPRECATED_ENDPOINT
+Nov 07, 2024 14:10:31.00 [31216:21892:1107/141031.000:ERROR:registration_request.cc(291)] Registration response error message: DEPRECATED_ENDPOINT
+Nov 07, 2024 14:10:41.08 Attempting to use a delegate that only supports static-sized tensors with a graph that has dynamic-sized tensors (tensor#58 is a dynamic-sized tensor).
+Nov 07, 2024 14:11:23.56 [31216:21892:1107/141123.561:ERROR:registration_request.cc(291)] Registration response error message: DEPRECATED_ENDPOINT
+Nov 07, 2024 14:12:52.94 [31216:21892:1107/141252.945:ERROR:registration_request.cc(291)] Registration response error message: DEPRECATED_ENDPOINT
+Nov 07, 2024 14:15:39.25 [31216:21892:1107/141539.254:ERROR:registration_request.cc(291)] Registration response error message: DEPRECATED_ENDPOINT
+Nov 07, 2024 14:22:12.26 [31216:21892:1107/142212.266:ERROR:registration_request.cc(291)] Registration response error message: DEPRECATED_ENDPOINT
+Nov 07, 2024 14:41:50.16 [31216:21892:1107/144150.162:ERROR:connection_factory_impl.cc(483)] ConnectionHandler failed with net error: -2
+Nov 07, 2024 14:42:49.98 [31216:21892:1107/144249.979:ERROR:connection_factory_impl.cc(434)] Failed to connect to MCS endpoint with error -103
+
+Nov 07, 2024 16:43:46.97 NEW SESSION
+Nov 07, 2024 16:43:46.98 Created TensorFlow Lite XNNPACK delegate for CPU.
+Nov 07, 2024 16:43:47.22 [27828:3776:1107/164347.229:ERROR:registration_request.cc(291)] Registration response error message: DEPRECATED_ENDPOINT
+Nov 07, 2024 16:44:16.03 [27828:3776:1107/164416.036:ERROR:registration_request.cc(291)] Registration response error message: DEPRECATED_ENDPOINT
+Nov 07, 2024 16:44:18.02 Attempting to use a delegate that only supports static-sized tensors with a graph that has dynamic-sized tensors (tensor#58 is a dynamic-sized tensor).
+Nov 07, 2024 16:45:01.08 [27828:3776:1107/164501.084:ERROR:registration_request.cc(291)] Registration response error message: DEPRECATED_ENDPOINT
+Nov 07, 2024 16:46:37.32 [27828:3776:1107/164637.329:ERROR:registration_request.cc(291)] Registration response error message: DEPRECATED_ENDPOINT
+Nov 07, 2024 16:49:50.66 [27828:3776:1107/164950.669:ERROR:registration_request.cc(291)] Registration response error message: DEPRECATED_ENDPOINT
+Nov 07, 2024 16:55:13.84 [27828:3776:1107/165513.849:ERROR:registration_request.cc(291)] Registration response error message: DEPRECATED_ENDPOINT

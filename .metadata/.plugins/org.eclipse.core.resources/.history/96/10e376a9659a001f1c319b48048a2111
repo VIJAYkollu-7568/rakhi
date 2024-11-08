@@ -1,0 +1,27 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>student login</title>
+</head>
+<body>
+<div class="container">
+<h1>Student login details</h1>
+
+<form action="Login">
+
+<input type="text" placeholder="username" name="username" required><br>
+<br>
+
+<input type="password"   placeholder="password"name="password" required><br>
+<br>
+<br>
+<input type="submit" style="background-color:green;"value="submit">
+
+</form>
+</div>
+</body>
+</html>
+
+

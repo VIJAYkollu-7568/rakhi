@@ -1,0 +1,26 @@
+
+
+
+<html>
+<head>
+<title>Calculator App</title>
+</head>
+<body>
+<form action="CalculatorServlet" >
+<input type="text" placeholder="Enter First Number " name="txtN1" ><br><br>
+<input type="text"  placeholder="Enter second Number " name="txtN2" ><br>
+<br>
+Select an Operation    <input type="radio" name="opr" value="+">
+ADDTION <input type="radio" name="opr" value="-">
+SUBSTRACTION <input type="radio" name="opr" value="*">
+MULTIPLY <input type="radio" name="opr" value="/">
+DIVIDE 
+<br><br>
+ <br> <input type="reset">
+<input  colour="blue" type="submit" value="Calculate" >
+</form>
+</body>
+</html>
+
+
+

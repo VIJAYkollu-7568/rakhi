@@ -1,0 +1,25 @@
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+    pageEncoding="UTF-8"%>
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+</head>
+<body>
+<%
+final String valid_username="student";
+final String valid_password="12345";
+String s1=request.getParameter("username");
+String s2=request.getParameter("password");
+
+if(s1.equals("username")&& s2.equals("password")){
+	out.println("welcome to"+s1);
+}else{
+	out.println("Login failed");
+	out.println("invalid username or password");
+}
+
+%>
+</body>
+</html>

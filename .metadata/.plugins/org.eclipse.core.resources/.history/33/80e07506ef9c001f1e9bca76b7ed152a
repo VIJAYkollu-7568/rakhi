@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+</head>
+
+<style>
+body{
+display:flex;
+
+}
+
+</style>
+<body>
+<form action="login.jsp">
+<h1>CALCULTOR</h1>
+
+Number 1 : <input type="number" name="num1" required>
+<br>
+<br>
+Number 2 : <input type="number" name="num2"required>
+<br>
+<br>
+<input type="submit">
+
+
+
+
+
+
+
+</body>
+</form>
+</html>

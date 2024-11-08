@@ -1,0 +1,186 @@
+<!DOCTYPE html>logo
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Recipe App</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<style>
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body and Basic Layout */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f9;
+    color: #333;
+}
+
+/* Header */
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #333;
+    color: white;
+    padding: 10px 20px;
+}
+
+header .logo {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.search-bar {
+    padding: 8px;
+    border-radius: 5px;
+    border: none;
+    width: 250px;
+}
+
+.logout-btn {
+    background-color: #e74c3c;
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.logout-btn:hover {
+    background-color: #c0392b;
+}
+
+/* Recipe Container */
+.recipe-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    padding: 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+/* Recipe Card */
+.recipe-card {
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    transition: transform 0.3s ease;
+}
+
+.recipe-card:hover {
+    transform: translateY(-10px);
+}
+
+.recipe-image {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+}
+
+.recipe-title {
+    font-size: 18px;
+    font-weight: bold;
+    margin: 10px 15px;
+}
+
+.recipe-desc {
+    font-size: 14px;
+    margin: 0 15px;
+    color: #555;
+}
+
+.details-btn {
+    background-color: #3498db;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+    margin: 15px;
+    cursor: pointer;
+}
+
+.details-btn:hover {
+    background-color: #2980b9;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .recipe-container {
+        grid-template-columns: 1fr 1fr;
+    }
+}
+
+@media (max-width: 480px) {
+    .recipe-container {
+        grid-template-columns: 1fr;
+    }
+
+    .search-bar {
+        width: 200px;
+    }
+}
+
+
+</style>
+<body>
+    <!-- Header with Search and Logout -->
+    <header>
+        <div class="logo">Recipe Finder</div>
+        <input type="text" class="search-bar" placeholder="Search recipes..." />
+        
+        <button class="logout-btn" onclick="location.href='login.html.html'">Logout</button>
+        
+    </header>
+
+    <!-- Recipe Container -->
+    <div class="recipe-container">
+        <!-- Recipe Card 1 -->
+        <div class="recipe-card">
+            <img src="IMAGES/c3.jpg" alt="Recipe 1" class="recipe-image">
+            <h3 class="recipe-title">Recipe 1</h3>
+            <p class="recipe-desc">Short description about the recipe.</p>
+            <button class="details-btn">View Details</button>
+        </div>
+
+        <!-- Recipe Card 2 -->
+        <div class="recipe-card">
+            <img src="IMAGES/c1.webp" alt="Recipe 2" class="recipe-image">
+            <h3 class="recipe-title">Recipe 2</h3>
+            <p class="recipe-desc">Short description about the recipe.</p>
+            <button class="details-btn">View Details</button>
+        </div>
+
+        <!-- Recipe Card 3 -->
+        <div class="recipe-card">
+            <img src="IMAGES/c2.jpeg" alt="Recipe 3" class="recipe-image">
+            <h3 class="recipe-title">Recipe 3</h3>
+            <p class="recipe-desc">Short description about the recipe.</p>
+            <button class="details-btn">View Details</button>
+        </div>
+
+        <!-- Recipe Card 4 -->
+        <div class="recipe-card">
+            <img src="IMAGES/c4.jpeg" alt="Recipe 4" class="recipe-image">
+            <h3 class="recipe-title">Recipe 4</h3>
+            <p class="recipe-desc">Short description about the recipe.</p>
+            <button class="details-btn">View Details</button>
+        </div>
+
+        <!-- Recipe Card 5 -->
+        <div class="recipe-card">
+            <img src="recipe5.jpg" alt="Recipe 5" class="recipe-image">
+            <h3 class="recipe-title">Recipe 5</h3>
+            <p class="recipe-desc">Short description about the recipe.</p>
+            <button class="details-btn">View Details</button>
+        </div>
+    </div>
+</body>
+</html>

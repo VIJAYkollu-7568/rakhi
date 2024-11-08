@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Main Page with Pictures</title>
+<style>
+    /* General styling for the body */
+    body {
+        font-family: Arial, sans-serif;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        min-height: 100vh;
+        margin: 0;
+        background-color: #f3f4f6;
+    }
+
+    /* Container for the image gallery */
+    .gallery {
+        display: grid;
+        grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+        gap: 15px;
+        max-width: 1000px;
+        padding: 20px;
+    }
+
+    /* Styling for individual images */
+    .gallery img {
+        width: 100%;
+        height: auto;
+        border-radius: 8px;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+        transition: transform 0.3s ease;
+    }
+
+    /* Hover effect for images */
+    .gallery img:hover {
+        transform: scale(1.05);
+    }
+</style>
+</head>
+<body>
+
+<div class="gallery">
+    <!-- Add image paths here -->
+    <img src="images/a1.png" alt="a1.png">
+    
+</div>
+
+</body>
+</html>

@@ -1,0 +1,63 @@
+package StudentForm;
+
+import java.io.IOException;
+import java.io.PrintWriter;
+import java.sql.Connection;
+import java.sql.DriverManager;
+import java.sql.PreparedStatement;
+import java.sql.SQLException;
+import javax.servlet.ServletException;
+import javax.servlet.annotation.WebServlet;
+import javax.servlet.http.HttpServlet;
+import javax.servlet.http.HttpServletRequest;
+import javax.servlet.http.HttpServletResponse;
+
+@WebServlet("/hello")
+public class FormServlet extends HttpServlet {
+    private static final long serialVersionUID = 1L;
+
+    // Database credentials
+    private static final String JDBC_URL = "jdbc:postgresql://localhost:5432/studentdb";
+    private static final String JDBC_USER = "postgres";
+    private static final String JDBC_PASSWORD = "VIJAY2005";
+
+    @Override
+    protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
+        response.setContentType("text/html");
+        PrintWriter out = response.getWriter();
+
+        String sid = request.getParameter("id");
+        String sname = request.getParameter("name");
+        String sgender = request.getParameter("gender");
+
+        // Display form data
+        out.println("<b>Form Submission Details</b><br>");
+        out.println("Student ID: " + sid + "<br>");
+        out.println("Student Name: " + sname + "<br>");
+        out.println("Student Gender: " + sgender + "<br>");
+
+        // Save data to database
+        try {
+            Class.forName("org.postgresql.Driver");
+            try (Connection connection = DriverManager.getConnection(JDBC_URL, JDBC_USER, JDBC_PASSWORD)) {
+                String sql = "INSERT INTO students (student_id, name, gender) VALUES (?, ?, ?)";
+                try (PreparedStatement statement = connection.prepareStatement(sql)) {
+                    statement.setInt(1, Integer.parseInt(sid));
+                    statement.setString(2, sname);
+                    statement.setString(3, sgender);
+
+                    int rowsInserted = statement.executeUpdate();
+                    if (rowsInserted > 0) {
+                        out.println("<br><b>Data saved successfully to the database!</b>");
+                    } else {
+                        out.println("<br><b>Failed to save data.</b>");
+                    }
+                }
+            }
+        } catch (ClassNotFoundException e) {
+            out.println("<br>Error loading database driver: " + e.getMessage());
+        } catch (SQLException e) {
+            out.println("<br>Error connecting to the database: " + e.getMessage());
+        }
+    }
+}

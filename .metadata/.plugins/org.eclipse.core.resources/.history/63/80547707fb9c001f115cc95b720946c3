@@ -1,0 +1,68 @@
+import java.io.IOException;
+import java.io.PrintWriter;
+import java.sql.Connection;
+import java.sql.DriverManager;
+import java.sql.PreparedStatement;
+import java.sql.SQLException;
+
+import javax.servlet.ServletException;
+import javax.servlet.annotation.WebServlet;
+import javax.servlet.http.HttpServlet;
+import javax.servlet.http.HttpServletRequest;
+import javax.servlet.http.HttpServletResponse;
+
+@WebServlet("/vijay")
+public class SignupServlet extends HttpServlet {
+    private static final long serialVersionUID = 1L;
+
+    protected void doPost(HttpServletRequest request, HttpServletResponse response)
+            throws ServletException, IOException {
+        
+        // Get form data
+        String username = request.getParameter("username");
+        String password = request.getParameter("password");
+        String email = request.getParameter("email");
+
+        // Database connection parameters
+        String jdbcURL = "jdbc:postgresql://localhost:5432/JAVA";
+        String dbUser = "postgres";
+        String dbPassword = "VIJAY2005";
+
+        Connection connection = null;
+        PreparedStatement statement = null;
+
+        try {
+            // Load JDBC driver
+            Class.forName("org.postgresql.Driver");
+            // Establish connection
+            connection = DriverManager.getConnection(jdbcURL, dbUser, dbPassword);
+            
+            // SQL insert statement
+            String sql = "INSERT INTO users (username, password, email) VALUES (?, ?, ?)";
+            statement = connection.prepareStatement(sql);
+            statement.setString(1, username);
+            statement.setString(2, password);
+            statement.setString(3, email);
+
+            // Execute update
+            int rowsInserted = statement.executeUpdate();
+            response.setContentType("text/html");
+            PrintWriter out = response.getWriter();
+
+            if (rowsInserted > 0) {
+                out.println("<h2>Sign-up successful!</h2>");
+            } else {
+                out.println("<h2>Sign-up failed. Try again.</h2>");
+            }
+        } catch (ClassNotFoundException | SQLException e) {
+            e.printStackTrace();
+        } finally {
+            try {
+                if (statement != null) statement.close();
+                if (connection != null) connection.close();
+            } catch (SQLException e) {
+                e.printStackTrace();
+            }
+        }
+    }
+}

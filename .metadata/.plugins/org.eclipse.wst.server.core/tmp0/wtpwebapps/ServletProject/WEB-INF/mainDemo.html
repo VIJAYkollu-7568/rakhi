@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Recipe Template</title>
+<style>
+    /* General styling for the body */
+    body {
+        font-family: Arial, sans-serif;
+        background-color: #f7f8fa;
+        margin: 0;
+        padding: 20px;
+        display: flex;
+        justify-content: center;
+    }
+
+    /* Container for the recipe */
+    .recipe-container {
+        max-width: 800px;
+        background-color: #ffffff;
+        border-radius: 10px;
+        box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+        overflow: hidden;
+    }
+
+    /* Recipe image styling */
+    .recipe-image {
+        width: 100%;
+        height: 400px;
+        object-fit: cover;
+    }
+
+    /* Recipe details section */
+    .recipe-details {
+        padding: 20px;
+    }
+
+    /* Recipe title styling */
+    .recipe-title {
+        font-size: 2em;
+        color: #333333;
+        margin: 0;
+    }
+
+    /* Recipe description */
+    .recipe-description {
+        font-size: 1em;
+        color: #666666;
+        margin-top: 10px;
+        margin-bottom: 20px;
+        line-height: 1.6;
+    }
+
+    /* Ingredients and steps section */
+    .recipe-section {
+        margin-bottom: 20px;
+    }
+
+    /* Section title */
+    .section-title {
+        font-size: 1.5em;
+        color: #444;
+        border-bottom: 2px solid #e6e6e6;
+        padding-bottom: 8px;
+        margin-bottom: 12px;
+    }
+
+    /* List styling */
+    ul, ol {
+        padding-left: 20px;
+        color: #555;
+    }
+    
+    ul li, ol li {
+        margin-bottom: 8px;
+    }
+
+    /* Button styling */
+    .action-button {
+        display: inline-block;
+        margin-top: 20px;
+        padding: 10px 20px;
+        background-color: #ff6f61;
+        color: #ffffff;
+        text-decoration: none;
+        border-radius: 5px;
+        transition: background-color 0.3s;
+    }
+
+    .action-button:hover {
+        background-color: #ff4b3a;
+    }
+</style>
+</head>
+<body>
+
+<div class="recipe-container">
+    <!-- Recipe Image -->
+    <img src="images/recipe.jpg" alt="Recipe Image" class="recipe-image">
+
+    <!-- Recipe Details -->
+    <div class="recipe-details">
+        <h1 class="recipe-title">Spaghetti Carbonara</h1>
+        <p class="recipe-description">
+            This classic Italian pasta dish is simple to make and incredibly delicious.
+            Perfect for a quick weeknight dinner or a cozy weekend meal.
+        </p>
+
+        <!-- Ingredients Section -->
+        <div class="recipe-section">
+            <h2 class="section-title">Ingredients</h2>
+            <ul>
+                <li>200g spaghetti</li>
+                <li>100g pancetta or bacon, diced</li>
+                <li>2 large eggs</li>
+                <li>50g grated Parmesan cheese</li>
+                <li>Salt and black pepper, to taste</li>
+                <li>Fresh parsley, for garnish</li>
+            </ul>
+        </div>
+
+        <!-- Steps Section -->
+        <div class="recipe-section">
+            <h2 class="section-title">Instructions</h2>
+            <ol>
+                <li>Cook the spaghetti in a large pot of salted boiling water until al dente.</li>
+                <li>While the pasta is cooking, fry the pancetta in a pan until crispy.</li>
+                <li>In a bowl, whisk together the eggs and Parmesan cheese.</li>
+                <li>Drain the pasta and quickly toss it with the pancetta and egg mixture.</li>
+                <li>Season with salt and black pepper, garnish with parsley, and serve hot.</li>
+            </ol>
+        </div>
+
+        <!-- Action Button -->
+        <a href="#" class="action-button">Save Recipe</a>
+    </div>
+</div>
+
+</body>
+</html>

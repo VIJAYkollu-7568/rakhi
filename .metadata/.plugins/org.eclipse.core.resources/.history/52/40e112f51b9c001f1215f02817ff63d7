@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Student Form</title>
+    <style>
+        body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+        }
+        form {
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <form method="post" action="vijay">
+        <h1><u>Student Form</u></h1>
+        <label><b>Enter Name:</b></label>
+        <input type="text" name="name" required />
+        <br><br>
+        
+        <label><b>Enter ID:</b></label>
+        <input type="number" name="id" required />
+        <br><br>
+        
+        <b>Select Gender:</b>
+        <input type="radio" name="gender" value="male" required /> Male
+        <input type="radio" name="gender" value="female" /> Female
+        <input type="radio" name="gender" value="others" /> Others
+        <br><br>
+        
+        <input type="submit" name="submit" value="Submit">
+    </form>
+</body>
+</html>

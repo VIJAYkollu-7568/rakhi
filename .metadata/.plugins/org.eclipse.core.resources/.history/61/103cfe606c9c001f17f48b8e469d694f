@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Recipe App</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Header with Search and Logout -->
+    <header>
+        <div class="logo">Recipe Finder</div>
+        <input type="text" class="search-bar" placeholder="Search recipes..." />
+        <button class="logout-btn">Logout</button>
+    </header>
+
+    <!-- Recipe Container -->
+    <div class="recipe-container">
+        <!-- Recipe Card 1 -->
+        <div class="recipe-card">
+            <img src="recipe1.jpg" alt="Recipe 1" class="recipe-image">
+            <h3 class="recipe-title">Recipe 1</h3>
+            <p class="recipe-desc">Short description about the recipe.</p>
+            <button class="details-btn">View Details</button>
+        </div>
+
+        <!-- Recipe Card 2 -->
+        <div class="recipe-card">
+            <img src="recipe2.jpg" alt="Recipe 2" class="recipe-image">
+            <h3 class="recipe-title">Recipe 2</h3>
+            <p class="recipe-desc">Short description about the recipe.</p>
+            <button class="details-btn">View Details</button>
+        </div>
+
+        <!-- Recipe Card 3 -->
+        <div class="recipe-card">
+            <img src="recipe3.jpg" alt="Recipe 3" class="recipe-image">
+            <h3 class="recipe-title">Recipe 3</h3>
+            <p class="recipe-desc">Short description about the recipe.</p>
+            <button class="details-btn">View Details</button>
+        </div>
+
+        <!-- Recipe Card 4 -->
+        <div class="recipe-card">
+            <img src="recipe4.jpg" alt="Recipe 4" class="recipe-image">
+            <h3 class="recipe-title">Recipe 4</h3>
+            <p class="recipe-desc">Short description about the recipe.</p>
+            <button class="details-btn">View Details</button>
+        </div>
+
+        <!-- Recipe Card 5 -->
+        <div class="recipe-card">
+            <img src="recipe5.jpg" alt="Recipe 5" class="recipe-image">
+            <h3 class="recipe-title">Recipe 5</h3>
+            <p class="recipe-desc">Short description about the recipe.</p>
+            <button class="details-btn">View Details</button>
+        </div>
+    </div>
+</body>
+</html>

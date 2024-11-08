@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+</head>
+<body>
+<input placeholder="enter the num1" type="text" name="num1"required>
+<br>
+<br>
+
+<input placeholder="enter the num2" type="text" name="num2" required>
+
+<br>
+<br>
+
+
+
+
+
+
+</body>
+</html>
